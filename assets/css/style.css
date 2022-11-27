@@ -1,0 +1,262 @@
+@font-face {
+  font-family: Work-Sans;
+  src: url(../fonts/Work_Sans/static/WorkSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: Work-Sans-Light;
+  src: url(../fonts/Work_Sans/static/WorkSans-Light.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Work-Sans;
+  font-size: 62, 5%;
+  color: #867772;
+}
+
+body {
+  background-color: #2e2e2e;
+}
+
+/* *************** HOME ********************** */
+/* *************** Types & Fonts ********************** */
+
+header a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+header a:hover {
+  color: #ebccc2;
+}
+
+.home-paragraph1 {
+  color: rgb(234, 204, 194);
+  font-family: Work-Sans-Light;
+  font-size: 2rem;
+}
+
+.home-pragraph2 {
+  color: #867772;
+  font-family: Work-Sans-Light;
+  font-size: 1rem;
+}
+
+h1 {
+  color: #ebccc2;
+  font-family: Work-Sans-Light;
+  font-size: 2rem;
+}
+
+/* *************** HOME ********************** */
+/* *************** Navigation ********************** */
+
+.navbar1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.nav-bar-items1 {
+  display: flex;
+  list-style-type: none;
+  gap: 3rem;
+}
+
+.socialmedia {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar2 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  gap: 3rem;
+  padding: 1rem;
+  list-style: none;
+}
+
+/* *************** HOME ********************** */
+/* *************** Main ********************** */
+
+.home-paragraph1 {
+  padding: 5rem 0rem 7rem 20rem;
+  max-width: 60vw;
+}
+
+.home-hero-img {
+  width: 90vw;
+  margin: 0rem 5vw 7rem;
+}
+
+.home-article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 3rem;
+  margin-bottom: 5rem;
+}
+
+.home-article img {
+  width: 40vw;
+}
+
+.home-article div {
+  width: 30vw;
+  line-height: 1.5rem;
+}
+
+.home-article h1 {
+  margin-bottom: 2rem;
+}
+
+/* *************** Shop & Experience ********************** */
+/* *************** Main ********************** */
+
+.section-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.section-container img {
+  height: 100vh;
+  width: 60vw;
+  object-fit: cover;
+}
+
+.image-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.image-article h2 {
+  color: #ebccc2;
+  font-family: Work-Sans-Light;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.image-article p {
+  color: #867772;
+  font-family: Work-Sans-Light;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.shop-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  width: 100vw;
+  height: 100vh;
+}
+
+.shop-article h2 {
+  font-size: 2rem;
+  color: #ebccc2;
+  font-family: Work-Sans-Light;
+  margin: 2rem 0;
+}
+
+.shop-article h3 {
+  font-size: 1rem;
+  font-family: Work-Sans-Light;
+  margin-bottom: 0.5rem;
+}
+
+.shop-article button {
+  width: 4rem;
+  height: 2rem;
+  color: #2e2e2e;
+  background-color: #ebccc2;
+  border: none;
+  margin: 2rem 0;
+}
+
+/* *************** Inspiration ********************** */
+/* *************** Main ********************** */
+
+.inspiration-image {
+  width: 80vw;
+  margin: 7rem 0rem 0rem 9rem;
+}
+
+.inspiration-article {
+  margin: 7rem 0rem 3rem 9rem;
+}
+
+.inspiration-article p:nth-of-type(1) {
+  color: #ebccc2;
+  font-family: Work-Sans-Light;
+  margin-bottom: 0.5rem;
+}
+
+.inspiration-article h2 {
+  color: #ebccc2;
+  font-family: Work-Sans;
+  margin-bottom: 2.5rem;
+}
+
+.inspiration-article h5 {
+  border: 1px solid white;
+  display: inline;
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.inspiration-article p:nth-of-type(2) {
+  margin-top: 2rem;
+}
+
+.inspiration-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  margin: 0rem 9rem 9rem 9rem;
+  gap: 1rem;
+}
+
+.inspiration-grid > div {
+  width: 30vw;
+  align-self: center;
+}
+
+.inspiration-grid > img {
+  width: 40vw;
+}
+
+.inspiration-grid p:nth-of-type(1) {
+  color: #ebccc2;
+  margin-bottom: 1rem;
+}
+
+.inspiration-grid h2 {
+  color: #ebccc2;
+  margin-bottom: 1rem;
+  font-family: Work-Sans-Light;
+}
+.inspiration-grid p:nth-of-type(2) {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  font-family: Work-Sans-Light;
+}
